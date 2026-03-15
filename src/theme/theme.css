@@ -1,0 +1,87 @@
+:root{
+    --spaces-x48: 48px;
+    --spaces-x32: 32px;
+    --spaces-x24: 24px;
+    --spaces-x18: 18px;
+    --spaces-x16: 16px;
+    --spaces-x12: 12px;
+    --spaces-x8: 8px;
+    --spaces-x4: 4px;
+    --spaces-x5: 5px;
+    --spaces-x3: 3px;
+    --spaces-x2: 2px;
+    --spaces-x1: 1px;
+
+    --border1-width: 1px 0px 1px 0px;
+    --border1-style: solid;
+    --border1-color: var(--color-neutral-3);
+
+
+    --color-panel-default: #FFFFFFCC;
+    --color-neutral-3: #F2EFF3;
+    --color-text: #211F26;
+    --color-neutral-alpha-6: #14003527;
+    --color-neutral-4: #F2EFF3;
+    --color-neutral-alpha-4: #20003618;
+    --color-neutral-alpha-11: #0400119C;
+    --colors-Semantic-Error-9: #E5484D;
+    --colors-Semantic-Error-3: #FEEBEC;
+    --color-panel-solid: #FFFFFF;
+    --color-neutral-alpha-3: #30004010;
+    --color-semantic-info-3: #E5E5FF;
+    --colors-accent-Accent-3: #FFF0D1;
+    --colors-neutral-Neutral-Alpha-8: #08003145;
+    --colors-neutral-Neutral-Alpha-9: #05001D73;
+    --colors-accent-Accent-9: #B8860B;
+    --colors-neutral-Neutral-Alpha-12: #211F26;
+
+
+    --font-weight-600: 600;
+    --font-weight-500: 500;
+    --font-weight-400: 400;
+
+
+    --font-size-x24: 24px;
+    --font-size-x16: 16px;
+    --font-size-x14: 14px;
+    --font-size-x12: 12px;
+    --font-size-x18: 18px;
+
+
+    --line-height-x24: 24px;
+    --line-height-x20: 20px;
+    --line-height-x16: 16px;
+    --line-height-x26: 26px;
+    --line-height-x30: 30px;
+
+    --letter-spacing-1: 0.04px;
+
+    --radius-full: 9999px;
+    --tabs-bg-opacity: 0.4;
+}
+
+:root body[data-theme-mode="dark"]{
+    --color-panel-default: #1A1A1ACC;
+    --color-neutral-3: #2B2B2B;
+    --color-text: #EDEDEF;
+    --color-neutral-alpha-6: #D6D6D627;
+    --color-neutral-4: #323232;
+    --color-neutral-alpha-4: #D4D4D418;
+    --color-neutral-alpha-11: #FFFFFFA0;
+    --colors-Semantic-Error-9: #E5484D;
+    --colors-Semantic-Error-3: #3C1618;
+    --color-panel-solid: #111111;
+    --color-neutral-alpha-3: #D4D4D410;
+    --color-semantic-info-3: #1F1F3D;
+    --colors-accent-Accent-3: #2E2100;
+    --colors-neutral-Neutral-Alpha-8: #D5D5D545;
+    --colors-neutral-Neutral-Alpha-9: #D1D1D173;
+    --colors-accent-Accent-9: #FFB224;
+    --colors-neutral-Neutral-Alpha-12: #EDEDEF;
+    --border1-color: #2B2B2B;
+    --tabs-bg-opacity: 0.15;
+
+    svg {
+        filter: invert(1);
+    }
+}
